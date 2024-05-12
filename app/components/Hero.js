@@ -13,8 +13,8 @@ export function Hero() {
 
             <div className="h-screen -mt-16 pb-25 py-2 flex flex-wrap-reverse items-center justify-center">
                 <div className=" ">
-                    <div className="p-10">
-                        <h1 className="font-bold text-white text-8xl">
+                    <div className="py-10 px-4">
+                        <h1 className="font-bold text-white text-6xl sm:text-8xl">
                             Kshitij Kochhar
                         </h1>
                         <h1 className="mt-2 text-white text-2xl">

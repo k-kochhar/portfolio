@@ -11,8 +11,8 @@ const navigation = [
 
 export function Header() {
     return (
-        <header className="w-screen h-16 p-5">
-                <div className="flex flex-wrap gap-y-5 gap-x-10 items-center justify-center text-2xl">
+        <header className="w-screen h-16 py-5">
+                <div className="flex flex-wrap font-medium sm:gap-x-10 gap-x-3 items-center justify-center text-2xl">
                     {navigation.map((item) => {
                         return (
                             <Link key={item.name} href={item.href} passHref>

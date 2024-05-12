@@ -11,7 +11,7 @@ const navigation = [
 
 export function Header() {
     return (
-        <header className="w-screen h-16 py-5">
+        <header className="w-screen h-16 pt-10">
                 <div className="flex flex-wrap font-medium sm:gap-x-10 gap-x-3 items-center justify-center text-2xl">
                     {navigation.map((item) => {
                         return (

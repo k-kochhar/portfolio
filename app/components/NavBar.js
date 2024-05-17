@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
+    {name: "Home", href: "/"},
     {name: "Projects", href: "/projects"},
     {name: "Experience", href: "/experience"},
-    {name: "Resume", href: "/resume"},
 ];
 
 export function NavBar() {

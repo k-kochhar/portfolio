@@ -44,7 +44,7 @@ const project_data = [
         data: {
             id: 4,
             title: "Workbook",
-            image: "../../Workbook.png",
+            image: "../../workbook.png",
             description: "Terminal system that allows for professors to write markdown/HTML and have a linux container " +
                 "on the side for students to execute the code.",
             technologies: ["Google Kubernetes Engine", "React", "TailwindCSS"],

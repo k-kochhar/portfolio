@@ -6,31 +6,32 @@ import {NavBar} from "../components/NavBar";
 const project_data = [
     {
         data: {
-            id: 1,
-            title: "Spotify ML Recommender",
-            image: "https://storage.googleapis.com/pr-newsroom-wp/1/2024/01/Spotify_FTR_Header.png",
+            id: 6,
+            title: "CollabDoc",
+            image: "../../CollabDoc.png",
             notable_info: ["Work in progress"],
-            description: "Spotify Recommending App that uses machine learning to recommend songs based on user preferences.",
-            technologies: ["Azure ML", "Spotify Web API", "React.js"],
+            description: "Real-time collaborative document editing web app that uses a simple 4-digit code " +
+                "for easy access and sharing.",
+            technologies: ["Typescript", "Supabase", "Angular"],
             project_link: "",
-            repo_link: ""
+            repo_link: "https://github.com/k-kochhar/CollabDoc"
         }
     },
     {
         data: {
-            id: 2,
+            id: 5,
             title: "Nuke Nester",
             image: "../../NukeNester2.png",
             notable_info: ["Winner of Bitcamp 2024's Best Sustainability Hack"],
             description: "App that allows companies to manage their nuclear waste disposal in a safe and sustainable manner.",
-            technologies: ["Next.js", "MongoDB", "Express.js"],
+            technologies: ["Next", "MongoDB", "Express"],
             project_link: "https://devpost.com/software/nuke-nester",
             repo_link: "https://github.com/NukeNester"
         }
     },
     {
         data: {
-            id: 3,
+            id: 4,
             title: "UMoment",
             image: "../../UMoment.jpeg",
             description: "Event directory app that serves as a centralized hub for university students to discover and " +
@@ -42,7 +43,7 @@ const project_data = [
     },
     {
         data: {
-            id: 4,
+            id: 3,
             title: "Workbook",
             image: "../../workbook.png",
             description: "Terminal system that allows for professors to write markdown/HTML and have a linux container " +
@@ -54,7 +55,7 @@ const project_data = [
     },
     {
         data: {
-            id: 5,
+            id: 2,
             title: "Weather SMS",
             image: "../../Cloud.jpeg",
             description: "App that sends weather data to a user's phone via SMS. AWS Lambda " +
@@ -65,7 +66,7 @@ const project_data = [
     },
     {
         data: {
-            id: 6,
+            id: 1,
             title: "Amazon Web Scraper",
             image: "../../Amazon_Logo.webp",
             description: "Basic web scraping tool using Beautiful Soup to extract and display product information from Amazon",

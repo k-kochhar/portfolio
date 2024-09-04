@@ -31,9 +31,9 @@ export function Hero() {
                         }
                     </div>
                     <h2 className="text-md justify-center my-2 max-w-4xl">
-                        I&apos;m a sophomore at the University of Maryland, College Park studying
+                        I&apos;m a junior at the University of Maryland, College Park studying
                         Computer Science. I&apos;m passionate about software development,
-                        machine learning, and data science
+                        machine learning, and data science.
                     </h2>
                 </div>
 

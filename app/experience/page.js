@@ -20,21 +20,6 @@ const project_data = [
             repo_link: "https://github.com/ctfguide-tech"
         }
     },
-    {
-        data: {
-            id: 2,
-            title: "Sork",
-            notable_info: ["Founder"],
-            image: "../../Sork_Logo.png",
-            description: "Sork is a platform that is being developed for startups to manage their team, projects, and tasks. " +
-                "It is designed to be a one-stop solution for all startup needs.",
-            contribution: "I helped develop the entire platform from scratch, including the frontend, backend, and  " +
-                "real-time conferencing feature.",
-            technologies: ["Next.js", "Supabase", "MongoDB", "WebRTC"],
-            project_link: "https://sork.app",
-            repo_link: "https://github.com/Sork-app"
-        }
-    }
 ]
 
 export default function Page() {

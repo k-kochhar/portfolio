@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Link from "next/link";
+import Image from 'next/image';
 
 
 export default function ProjectCard({ data }) {

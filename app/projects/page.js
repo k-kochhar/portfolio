@@ -5,7 +5,18 @@ import {NavBar} from "../components/NavBar";
 
 const project_data = [
     {
-        
+        data: {
+            id: 9,
+            title: "Sera",
+            image: "/../../Sera.png",
+            notable_info: ["Winner of PennApps 2024's Best DEI Hack"],
+            description: "An AI-powered finance app with personalized financial guidance, OCR receipt scanning, transaction management, and budgeting tools.",
+            technologies: ["Tune AI", "Roboflow OCR", "Cerebras AI"],
+            project_link: "https://devpost.com/software/sera-2svk5u",
+            repo_link: "https://github.com/sera-financial"
+        }
+    },
+    {
         data: {
             id: 8,
             title: "MedTap",

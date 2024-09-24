@@ -6,6 +6,7 @@ export function Hero() {
         {name: 'fab fa-github', link: 'https://github.com/k-kochhar'},
         {name: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/kkochhar04/'},
         {name: 'fas fa-envelope', link: 'mailto:kkochhar@terpmail.com'},
+        {name: 'fab fa-instagram', link: 'https://www.instagram.com/ks.hitij/'},
     ]
 
     return (
@@ -19,6 +20,9 @@ export function Hero() {
                     <h1 className="mt-2 text-2xl">
                         Computer Science at University of Maryland
                     </h1>
+                    <h1 className="text-lg">
+                        3x Hackathon Winner
+                    </h1>
                     <div className="flex gap-x-10 py-4">
                         {
                             icons.map((icon) => {
@@ -31,9 +35,10 @@ export function Hero() {
                         }
                     </div>
                     <h2 className="text-md justify-center my-2 max-w-4xl">
-                        I&apos;m a junior at the University of Maryland, College Park studying
-                        Computer Science. I&apos;m passionate about software development,
-                        machine learning, and data science.
+                    Junior at UMD studying CS. I&apos;m passionate 
+                    about leveraging technology to 
+                    solve real-world problems, which I actively explore through 
+                    hackathons and collaborative projects
                     </h2>
                 </div>
 

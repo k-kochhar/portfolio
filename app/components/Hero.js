@@ -21,7 +21,7 @@ export function Hero() {
                         Computer Science at University of Maryland
                     </h1>
                     <h1 className="text-lg">
-                        3x Hackathon Winner
+                        4x Hackathon Winner
                     </h1>
                     <div className="flex gap-x-10 py-4">
                         {

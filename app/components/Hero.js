@@ -21,23 +21,23 @@ export function Hero() {
 						className="rounded-xl"
 					/>
 				</div>
-				<div className="px-4 flex flex-col text-wrap">
-					<h1 className="font-extrabold text-5xl sm:text-6xl mb-2 text-white">
+				<div className="px-4 flex flex-col text-wrap pt-6 sm:pt-0">
+					<h1 className="font-extrabold text-4xl sm:text-6xl mb-2 text-white">
 						Kshitij Kochhar
 					</h1>
-					<h2 className="text-3xl font-semibold mb-2">
+					<h2 className="text-xl sm:text-3xl font-semibold mb-2">
 						CS + ML @ University of Maryland
 					</h2>
-                    <h2 className="text-xl font-semi mb-2 text-white">
+                    <h2 className="text-md sm:text-xl font-semi mb-2 text-white">
 						4x Hackathon Winner
 					</h2>
-					<p className="text-md lg:w-96 sm:w-full mr-auto">
+					<p className="text-sm sm:text-md lg:w-96 sm:w-full mr-auto">
 						I&apos;m passionate about leveraging technology to solve real-world
 						problems, which I actively explore through hackathons and
 						collaborative projects.
 					</p>
 
-					<div className="flex justify-between mt-auto flex-wrap text-white pt-8">
+					<div className="flex justify-between mt-auto flex-wrap text-white pt-4">
 						<div>
 							<div className="flex gap-x-4 my-auto">
 								<Link href="/projects" passHref>

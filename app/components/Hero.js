@@ -1,53 +1,69 @@
-import Link from 'next/link'
+import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
+	const icons = [
+		{ name: "fab fa-github", link: "https://github.com/k-kochhar" },
+		{ name: "fab fa-linkedin",link: "https://www.linkedin.com/in/kkochhar04/" },
+		{ name: "fas fa-envelope", link: "mailto:kkochhar@terpmail.com" },
+		// { name: "fab fa-instagram", link: "https://www.instagram.com/ks.hitij/" },
+	];
 
-    const icons = [
-        {name: 'fab fa-github', link: 'https://github.com/k-kochhar'},
-        {name: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/kkochhar04/'},
-        {name: 'fas fa-envelope', link: 'mailto:kkochhar@terpmail.com'},
-        {name: 'fab fa-instagram', link: 'https://www.instagram.com/ks.hitij/'},
-    ]
+	return (
+		<div className="h-screen flex items-center justify-center bg-black">
+			<div className="flex flex-wrap gap-x-5">
+				<div className="lg:block rounded-lg flex mx-auto my-auto">
+					<Image
+						src="/headshot.jpg"
+						alt="Kshitij Kochhar"
+						width={250} // specify appropriate width
+						height={250} // specify appropriate height
+						className="rounded-xl"
+					/>
+				</div>
+				<div className="px-4 flex flex-col text-wrap">
+					<h1 className="font-extrabold text-5xl sm:text-6xl mb-2 text-white">
+						Kshitij Kochhar
+					</h1>
+					<h2 className="text-3xl font-semibold mb-2">
+						CS + ML @ University of Maryland
+					</h2>
+                    <h2 className="text-xl font-semi mb-2 text-white">
+						4x Hackathon Winner
+					</h2>
+					<p className="text-md lg:w-96 sm:w-full mr-auto">
+						I&apos;m passionate about leveraging technology to solve real-world
+						problems, which I actively explore through hackathons and
+						collaborative projects.
+					</p>
 
-    return (
-
-        <div className="h-screen -mt-16 pb-25 py-2 flex flex-wrap-reverse items-center justify-center">
-            <div className=" ">
-                <div className="py-10 px-4">
-                    <h1 className="font-bold text-6xl sm:text-8xl">
-                        Kshitij Kochhar
-                    </h1>
-                    <h1 className="mt-2 text-2xl">
-                        Computer Science at University of Maryland
-                    </h1>
-                    <h1 className="text-lg">
-                        4x Hackathon Winner
-                    </h1>
-                    <div className="flex gap-x-10 py-4">
-                        {
-                            icons.map((icon) => {
-                                return (
-                                    <Link key={icon.name} href={icon.link} passHref>
-                                        <i className={`${icon.name} text-4xl  hover:text-gray-500 cursor-pointer`}></i>
-                                    </Link>
-                                )
-                            })
-                        }
-                    </div>
-                    <h2 className="text-md justify-center my-2 max-w-4xl">
-                    Junior at UMD studying CS. I&apos;m passionate 
-                    about leveraging technology to 
-                    solve real-world problems, which I actively explore through 
-                    hackathons and collaborative projects
-                    </h2>
-                </div>
-
-            </div>
-
-            <div className="hidden lg:block py-10">
-                <img src="../headshot.jpg" alt="Kshitij Kochhar" className="w-96 h-96 rounded-full"/>
-            </div>
-        </div>
-
-    )
+					<div className="flex justify-between mt-auto flex-wrap text-white pt-8">
+						<div>
+							<div className="flex gap-x-4 my-auto">
+								<Link href="/projects" passHref>
+									<button className=" hover:bg-neutral-700 font-semi py-1 px-2 rounded">
+										Projects
+									</button>
+								</Link>
+								<Link href="/experience" passHref>
+									<button className=" hover:bg-neutral-700 font-semi py-1 px-2 rounded">
+										Experience
+									</button>
+								</Link>
+							</div>
+						</div>
+						<div className="flex gap-x-8 py-auto">
+							{icons.map((icon) => (
+								<Link key={icon.name} href={icon.link} passHref>
+									<i
+										className={`${icon.name} text-3xl hover:text-gray-500 cursor-pointer`}
+									></i>
+								</Link>
+							))}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }

@@ -8,16 +8,15 @@ const project_data = [
 	{
 		data: {
 			id: 2,
-			title: "Machine Learning Engineer",
-			notable_info: ["Machine Learning Engineer"],
-			image: "/Engauge.png",
+			title: "Machine Learning Intern",
+			image: "/newEngauge.png",
 			description:
 				"Engauge is a platform designed to enhance student engagement by analyzing lecture interactions and providing summaries of engagement metrics, confusion areas, and more.",
-            short: "Engauge - AI/ML Club",
+            short: "Engauge",
 			contribution:
 				"I built a data pipeline for processing student engagement data, implemented NLP models for summarization, and applied clustering algorithms for identifying areas of confusion. I am also working on fine-tuning LLMs and integrating RAG models for more accurate insights.",
-			technologies: ["Python", "NLP", "LLMs", "Clustering", "Vector Databases"],
-			project_link: "https://engauge.com",
+			technologies: ["SpaCy", "Qdrant", "Ollama", "Whisper"],
+			project_link: "https://engauge.live",
 			repo_link: "https://github.com/engauge-tech",
 		},
 	},
@@ -25,7 +24,6 @@ const project_data = [
 		data: {
 			id: 1,
 			title: "Founding Software Engineer",
-			notable_info: ["Founding Software Engineer"],
 			image: "/CTFGuide.png",
 			description:
 				"CTFGuide is a cybersecurity education startup. It enables independent learning and provides AI " +

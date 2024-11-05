@@ -9,6 +9,21 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
+			id: 10,
+			title: "Dear",
+			image: "/dear.png",
+			notable_info: ["Presented at CalHacks"],
+			description:
+				"An AI-powered voice agent to help support Alzheimer's patients with personalized voice interactions to enhance" +
+				" familiarity and emotional support ",
+			short: "AI voice agent for Alzheimer's treatment",
+			technologies: ["Cartesia", "Vapi", "Flask"],
+			project_link: "https://devpost.com/software/dear",
+			repo_link: "https://github.com/Dear-CalHacks",
+		},
+	},
+	{
+		data: {
 			id: 9,
 			title: "Sera",
 			image: "/Sera.png",

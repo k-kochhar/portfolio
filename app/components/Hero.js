@@ -6,7 +6,6 @@ export function Hero() {
 		{ name: "fab fa-github", link: "https://github.com/k-kochhar" },
 		{ name: "fab fa-linkedin",link: "https://www.linkedin.com/in/kkochhar04/" },
 		{ name: "fas fa-envelope", link: "mailto:kkochhar@terpmail.com" },
-		// { name: "fab fa-instagram", link: "https://www.instagram.com/ks.hitij/" },
 	];
 
 	return (

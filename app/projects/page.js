@@ -9,6 +9,24 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
+			id: 11,
+			title: "PigeonPost",
+			image: "/PigeonPost.png",
+			notable_info: ["Presented at HackPrinceton"],
+			description:
+				"PigeonPost is an educational tool designed to enhance lecture " +
+				"comprehension through real-time transcription, " +
+				"contextual query responses, and AI-powered support, " +
+				"helping students retain key concepts and succeed in " +
+				"challenging courses.",
+			short: "RAG based education tool",
+			technologies: ["Next", "QDrant", "Flask"],
+			project_link: "https://dorahacks.io/buidl/19412",
+			repo_link: "https://github.com/Pigeon-Post",
+		},
+	},
+	{
+		data: {
 			id: 10,
 			title: "Dear",
 			image: "/dear.png",

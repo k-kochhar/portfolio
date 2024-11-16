@@ -9,7 +9,7 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
-			id: 11,
+			id: 10,
 			title: "PigeonPost",
 			image: "/PigeonPost.png",
 			notable_info: ["Presented at HackPrinceton"],
@@ -27,7 +27,7 @@ const project_data = [
 	},
 	{
 		data: {
-			id: 10,
+			id: 9,
 			title: "Dear",
 			image: "/dear.png",
 			notable_info: ["Presented at CalHacks"],
@@ -42,7 +42,7 @@ const project_data = [
 	},
 	{
 		data: {
-			id: 9,
+			id: 8,
 			title: "Sera",
 			image: "/Sera.png",
 			notable_info: ["Winner of PennApps 2024's Best DEI Hack"],
@@ -56,7 +56,7 @@ const project_data = [
 	},
 	{
 		data: {
-			id: 8,
+			id: 7,
 			title: "MedTap",
 			image: "/MedTap.png",
 			notable_info: ["Winner of HopHacks 2024's Patient Safety Track"],
@@ -73,7 +73,7 @@ const project_data = [
 	},
 	{
 		data: {
-			id: 7,
+			id: 6,
 			title: "Travel Tracker",
 			image: "/TravelTracker_Logo.png",
 			description:
@@ -84,21 +84,6 @@ const project_data = [
 			technologies: ["Flask", "Socket.io", "OpenCage Geocoder"],
 			project_link: "https://traveltracker.kshitijkochhar.com/",
 			repo_link: "https://github.com/k-kochhar/Travel-Tracker",
-		},
-	},
-	{
-		data: {
-			id: 6,
-			title: "CollabDoc",
-			image: "/CollabDoc.png",
-			notable_info: ["Work in progress"],
-			description:
-				"Real-time collaborative document editing web app that uses a simple 4-digit code " +
-				"for easy access and sharing.",
-			short: "Collaborative document editing",
-			technologies: ["Typescript", "Supabase", "Angular"],
-			project_link: "",
-			repo_link: "https://github.com/k-kochhar/CollabDoc",
 		},
 	},
 	{

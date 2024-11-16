@@ -82,7 +82,7 @@ const project_data = [
 				"and geocoding APIs for mapping, and Socket.io for live updates.",
 			short: "Travel mention tracker",
 			technologies: ["Flask", "Socket.io", "OpenCage Geocoder"],
-			project_link: "",
+			project_link: "https://traveltracker.kshitijkochhar.com/",
 			repo_link: "https://github.com/k-kochhar/Travel-Tracker",
 		},
 	},

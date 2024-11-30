@@ -8,7 +8,7 @@ const project_data = [
 	{
 		data: {
 			id: 2,
-			title: "Machine Learning Intern",
+			title: "Software Engineer",
 			image: "/newEngauge.png",
 			description:
 				"Engauge is a platform designed to enhance student engagement by analyzing lecture interactions and providing summaries of engagement metrics, confusion areas, and more.",
@@ -17,7 +17,6 @@ const project_data = [
 				"I built a data pipeline for processing student engagement data, implemented NLP models for summarization, and applied clustering algorithms for identifying areas of confusion. I am also working on fine-tuning LLMs and integrating RAG models for more accurate insights.",
 			technologies: ["SpaCy", "Qdrant", "Ollama", "Whisper"],
 			project_link: "https://engauge.live",
-			repo_link: "https://github.com/engauge-tech",
 		},
 	},
 	{

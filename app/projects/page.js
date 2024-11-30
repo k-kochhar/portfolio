@@ -20,7 +20,7 @@ const project_data = [
 				"helping students retain key concepts and succeed in " +
 				"challenging courses.",
 			short: "RAG based education tool",
-			technologies: ["Next", "QDrant", "Flask"],
+			technologies: ["Next", "Qdrant", "Flask"],
 			project_link: "https://dorahacks.io/buidl/19412",
 			repo_link: "https://github.com/Pigeon-Post",
 		},

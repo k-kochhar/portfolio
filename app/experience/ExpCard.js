@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function ExpCard({ data }) {
     const [isExpanded, setIsExpanded] = useState(false);
     return (
-        <div className="text-white w-[448px] min-h-[90px] shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
+        <div className="text-white w-full sm:w-[448px] min-h-[90px] shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
 			{/* Static content */}
 			<div
 				className="flex overflow-hidden cursor-pointer h-[90px]"
@@ -20,11 +20,11 @@ export default function ExpCard({ data }) {
 					alt="Project Thumbnail"
 					width={96}
 					height={60}
-					className="object-cover rounded-md w-32 h-18"
+					className="object-cover rounded-lg w-24 sm:w-32 h-18"
 				/>
-				<div className="pl-4 p-1">
+				<div className="pl-4 p-1 flex-1">
 					<h2 className="text-lg text-white font-bold truncate">{data.title}</h2>
-					<h2 className="text-md line-clamp-2">{data.short}</h2>
+					<h2 className="text-sm sm:text-md line-clamp-2">{data.short}</h2>
 				</div>
 			</div>
 
@@ -48,7 +48,7 @@ export default function ExpCard({ data }) {
 								<li key={index}>{technology}</li>
 							))}
 						</ul>
-						<div className="flex items-end justify-between mt-4">
+						<div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 mt-4">
 							{data.project_link && (
 								<Link href={data.project_link}>
 									<i className="fas fa-external-link-alt"></i> View Project

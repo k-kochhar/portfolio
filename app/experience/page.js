@@ -8,21 +8,21 @@ const project_data = [
 	{
 		data: {
 			id: 2,
-			title: "Software Engineer",
-			image: "/newEngauge.png",
+			title: "Founding Engineer",
+			image: "/Engauge.png",
 			description:
 				"Engauge is a platform designed to enhance student engagement by analyzing lecture interactions and providing summaries of engagement metrics, confusion areas, and more.",
             short: "Engauge",
 			contribution:
 				"I built a data pipeline for processing student engagement data, implemented NLP models for summarization, and applied clustering algorithms for identifying areas of confusion. I am also working on fine-tuning LLMs and integrating RAG models for more accurate insights.",
-			technologies: ["SpaCy", "Qdrant", "Ollama", "Whisper"],
+			technologies: ["Next.js", "PostgreSQL", "Supabase", "Gemini"],
 			project_link: "https://engauge.live",
 		},
 	},
 	{
 		data: {
 			id: 1,
-			title: "Founding Software Engineer",
+			title: "Founding Engineer",
 			image: "/CTFGuide.png",
 			description:
 				"CTFGuide is a cybersecurity education startup. It enables independent learning and provides AI " +

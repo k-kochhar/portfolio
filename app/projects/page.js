@@ -9,6 +9,20 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
+			id: 11,
+			title: "HireFlow",
+			image: "/HireFlow.png",
+			notable_info: ["Winner of HoyaHacks 2025's Best Use of Terraform"],
+			description:
+				"HireFlow is an AI-powered recruitment platform that automates resume reviews, conducts NLP-powered screening calls, and generates unbiased candidate scores. By streamlining the early stages of hiring, it helps companies save time, reduce bias, and improve recruitment outcomes.",
+			short: "AI recruitment platform",
+			technologies: ["React", "Next.js", "Flask", "MongoDB", "Terraform"],
+			project_link: "https://devpost.com/software/hireflow",
+			repo_link: "https://github.com/k-kochhar/HireFlow",
+		},
+	},
+	{
+		data: {
 			id: 10,
 			title: "PigeonPost",
 			image: "/PigeonPost.png",
@@ -62,9 +76,9 @@ const project_data = [
 			notable_info: ["Winner of HopHacks 2024's Patient Safety Track"],
 			description:
 				"MedTap provides instant access to critical medical data through NFC technology," +
-                "allowing first responders to quickly retrieve essential patient information in " +
-                "emergencies. This ensures timely and informed decision-making, improving patient " +
-                " safety and care outcomes.",
+				"allowing first responders to quickly retrieve essential patient information in " +
+				"emergencies. This ensures timely and informed decision-making, improving patient " +
+				" safety and care outcomes.",
 			short: "NFC-based emergency medical data access",
 			technologies: ["Next", "MongoDB", "Auth0"],
 			project_link: "https://devpost.com/software/medtap",
@@ -178,7 +192,9 @@ export default function Page() {
 						</button>
 					</Link>
 				</div>
-				<h1 className="text-3xl text-white font-semibold pl-4 pb-10">projects</h1>
+				<h1 className="text-3xl text-white font-semibold pl-4 pb-10">
+					projects
+				</h1>
 				<div className="flex flex-col gap-4 px-4">
 					{project_data.map((project) => {
 						return <ProjectCard key={project.data.id} data={project.data} />;

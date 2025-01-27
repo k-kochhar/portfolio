@@ -9,29 +9,29 @@ export default function ProjectCard({ data }) {
 	const [isExpanded, setIsExpanded] = useState(false);
 
 	return (
-		<div className="text-white max-w-md shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
+		<div className="text-white w-[448px] min-h-[90px] shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
 			{/* Static content */}
 			<div
-				className="flex overflow-hidden cursor-pointer"
+				className="flex overflow-hidden cursor-pointer h-[90px]"
 				onClick={() => setIsExpanded(!isExpanded)}
 			>
 				<Image
 					src={data.image}
 					alt="Project Thumbnail"
 					width={96}
-					height={0}
-					className="object-cover rounded-md"
+					height={60}
+					className="object-cover rounded-md w-32 h-18"
 				/>
 				<div className="pl-4 p-1">
-					<h2 className="text-lg text-white font-bold">{data.title}</h2>
-					<h2 className="text-md">{data.short}</h2>
+					<h2 className="text-lg text-white font-bold truncate">{data.title}</h2>
+					<h2 className="text-md line-clamp-2">{data.short}</h2>
 				</div>
 			</div>
 
 			{/* Expanded content */}
 			<div
 				className={`transition-all duration-500 ease-in-out overflow-hidden ${
-					isExpanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+					isExpanded ? "max-h-[800px] opacity-100 mt-4" : "max-h-0 opacity-0"
 				}`}
 			>
 				{isExpanded && (

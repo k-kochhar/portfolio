@@ -28,7 +28,7 @@ export function Hero() {
 						CS + ML @ University of Maryland
 					</h2>
                     <h2 className="text-md sm:text-xl font-semi mb-2 text-white">
-						4x Hackathon Winner
+						5x Hackathon Winner
 					</h2>
 					<p className="text-sm sm:text-md lg:w-96 sm:w-full mr-auto">
 						I&apos;m passionate about leveraging technology to solve real-world

@@ -9,7 +9,7 @@ const project_data = [
 		data: {
 			id: 2,
 			title: "Founding Engineer",
-			image: "/Engauge.png",
+			image: "/engauge.png",
 			description:
 				"Engauge is a platform designed to enhance student engagement by analyzing lecture interactions and providing summaries of engagement metrics, confusion areas, and more.",
             short: "Engauge",

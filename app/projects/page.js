@@ -9,6 +9,19 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
+			id: 12,
+			title: "FirstWave",
+			image: "/firstwave.png",
+			notable_info: ["Winner of HackNYU 2025's Security and Privacy Track"],
+			description: "FirstWave is a platform designed to train employees to detect social engineering attacks via AI-powered simulations.",
+			short: "AI Social Engineering Training",
+			technologies: ["Next.js", "Express.js", "GPT4o", "Puppeteer", "MongoDB"],
+			project_link: "https://devpost.com/software/firstwave-5wbld1",
+			repo_link: "https://github.com/Laphatize/firstwave",
+		}
+	},
+	{
+		data: {
 			id: 11,
 			title: "HireFlow",
 			image: "/HireFlow.png",

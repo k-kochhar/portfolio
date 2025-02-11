@@ -9,7 +9,7 @@ export default function ProjectCard({ data }) {
 	const [isExpanded, setIsExpanded] = useState(false);
 
 	return (
-		<div className="text-white w-full sm:w-[500px] min-h-[90px] shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
+		<div className="text-white w-full sm:w-[448px] min-h-[90px] shadow-2xl rounded-lg transition-all p-2 pr-4 duration-300 ease-in-out border border-neutral-800 hover:border-white">
 			{/* Static content */}
 			<div
 				className="flex overflow-hidden cursor-pointer h-[90px]"

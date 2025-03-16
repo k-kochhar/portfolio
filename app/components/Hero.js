@@ -40,12 +40,12 @@ export function Hero() {
 						<div>
 							<div className="flex gap-x-4 my-auto sm:justify-start">
 								<Link href="/projects" passHref>
-									<button className=" hover:bg-neutral-700 font-semi px-1 py-1 rounded border border-white">
+									<button className=" hover:bg-neutral-700 font-semi px-3 py-1 rounded border border-white">
 										Projects
 									</button>
 								</Link>
 								<Link href="/experience" passHref>
-									<button className=" hover:bg-neutral-700 font-semi px-1 py-1 rounded border border-white">
+									<button className=" hover:bg-neutral-700 font-semi px-3 py-1 rounded border border-white">
 										Experience
 									</button>
 								</Link>

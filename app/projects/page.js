@@ -182,7 +182,7 @@ const project_data = [
 	    data: {
 	        id: 1,
 	        title: "Amazon Web Scraper",
-	        image: "/Amazon-Logo.webp",
+	        image: "/amazon-logo.webp",
 	        description: "Basic web scraping tool using Beautiful Soup to extract and display product information from Amazon",
 	        short: "Product Webscraper",
 	        technologies: ["Python", "Beautiful Soup library"],

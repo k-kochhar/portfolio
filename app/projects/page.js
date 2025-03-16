@@ -12,7 +12,7 @@ const project_data = [
 			id: 13,
 			title: "SafeCall",
 			image: "/SafeCall.png",
-			notable_info: ["Winner of HenHacks 2025's Safety & Emergency Category"],
+			notable_info: ["Winner of HenHacks 2025's Safety & Emergency Track"],
 			description: "SafeCall is a safety tool designed to assist users in high-risk situations by simulating real time voice interactions. It helps users discreetly seek help or create a believable excuse to leave unsafe environments, ensuring safety through adaptive AI conversations and emergency logging.",
 			short: "AI Safety Call System",
 			technologies: ["Next.js", "FastAPI", "Twilio", "OpenAI"],

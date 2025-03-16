@@ -166,29 +166,29 @@ const project_data = [
 	//         repo_link: "https://github.com/Laphatize/workbook"
 	//     }
 	// },
-	// {
-	//     data: {
-	//         id: 2,
-	//         title: "Weather SMS",
-	//         image: "/Cloud.jpeg",
-	//         description: "App that sends weather data to a user's phone via SMS. AWS Lambda " +
-	//             "sends the data and AWS Cloudwatch triggers the Lambda function.",
-	//         short: "AI Finance app",
-	//         technologies: ["AWS Cloudwatch", "AWS Lambda", "SMTP"],
-	//         repo_link: "https://github.com/k-kochhar/Weather-SMS"
-	//     }
-	// },
-	// {
-	//     data: {
-	//         id: 1,
-	//         title: "Amazon Web Scraper",
-	//         image: "/Amazon_Logo.webp",
-	//         description: "Basic web scraping tool using Beautiful Soup to extract and display product information from Amazon",
-	//         short: "AI Finance app",
-	//         technologies: ["Python", "Beautiful Soup library"],
-	//         repo_link: "https://github.com/k-kochhar/Amazon-Products-Info"
-	//     }
-	// },
+	{
+	    data: {
+	        id: 2,
+	        title: "Weather SMS",
+	        image: "/Cloud.jpeg",
+	        description: "App that sends weather data to a user's phone via SMS. AWS Lambda " +
+	            "sends the data and AWS Cloudwatch triggers the Lambda function.",
+	        short: "SMS Weather Delivery",
+	        technologies: ["AWS Cloudwatch", "AWS Lambda", "SMTP"],
+	        repo_link: "https://github.com/k-kochhar/Weather-SMS"
+	    }
+	},
+	{
+	    data: {
+	        id: 1,
+	        title: "Amazon Web Scraper",
+	        image: "/Amazon-Logo.webp",
+	        description: "Basic web scraping tool using Beautiful Soup to extract and display product information from Amazon",
+	        short: "Product Webscraper",
+	        technologies: ["Python", "Beautiful Soup library"],
+	        repo_link: "https://github.com/k-kochhar/Amazon-Products-Info"
+	    }
+	},
 ];
 
 export default function Page() {

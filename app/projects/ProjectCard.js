@@ -20,7 +20,7 @@ export default function ProjectCard({ data }) {
 					alt="Project Thumbnail"
 					width={96}
 					height={60}
-					className="object-cover rounded-lg w-24 sm:w-32 h-18"
+					className="object-cover rounded-lg w-32 sm:w-32 h-18"
 				/>
 				<div className="pl-4 p-1 flex-1">
 					<h2 className="text-lg text-white font-bold truncate">{data.title}</h2>

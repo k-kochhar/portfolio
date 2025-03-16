@@ -9,6 +9,19 @@ import { useState } from "react"; // {{ edit_2 }}
 const project_data = [
 	{
 		data: {
+			id: 13,
+			title: "SafeCall",
+			image: "/SafeCall.png",
+			notable_info: ["Winner of HenHacks 2025's Safety & Emergency Category"],
+			description: "SafeCall is a safety tool designed to assist users in high-risk situations by simulating real time voice interactions. It helps users discreetly seek help or create a believable excuse to leave unsafe environments, ensuring safety through adaptive AI conversations and emergency logging.",
+			short: "AI Safety Call System",
+			technologies: ["Next.js", "FastAPI", "Twilio", "OpenAI"],
+			project_link: "https://devpost.com/software/safecall",
+			repo_link: "https://github.com/k-kochhar/SafeCall"
+		}
+	},
+	{
+		data: {
 			id: 12,
 			title: "FirstWave",
 			image: "/firstwave.png",

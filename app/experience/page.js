@@ -7,6 +7,19 @@ import Link from "next/link";
 const project_data = [
 	{
 		data: {
+			id: 3,
+			title: "Incoming SDE Intern",
+			image: "/amazon-logo.webp",
+			description:
+				"Summer 2025",
+            short: "Amazon",
+			contribution:
+				"",
+			project_link: "",
+		},
+	},
+	{
+		data: {
 			id: 2,
 			title: "Co-Founder & Software Engineer",
 			image: "/engauge.png",

@@ -20,10 +20,10 @@ export default function ExpCard({ data }) {
 					alt="Project Thumbnail"
 					width={96}
 					height={60}
-					className="object-cover rounded-lg w-24 sm:w-32 h-18"
+					className="object-cover rounded-lg w-32 h-18"
 				/>
 				<div className="pl-4 p-1 flex-1">
-					<h2 className="text-lg text-white font-bold truncate">{data.title}</h2>
+					<h2 className="text-lg text-white font-bold overflow-hidden">{data.title}</h2>
 					<h2 className="text-sm sm:text-md line-clamp-2">{data.short}</h2>
 				</div>
 			</div>
@@ -40,14 +40,20 @@ export default function ExpCard({ data }) {
 							<p className="text-sm font-bold">{data.notable_info}</p>
 						)}
 						<p className="mt-2">{data.description}</p>
-						<h3 className="text-xl font-semibold mt-2">
-							Notable Technologies:
-						</h3>
-						<ul className="list-disc list-inside">
+						{
+							data.technologies && (
+								<>
+									<h3 className="text-xl font-semibold mt-2">
+										Notable Technologies:
+									</h3>
+									<ul className="list-disc list-inside">
 							{data.technologies.map((technology, index) => (
 								<li key={index}>{technology}</li>
 							))}
-						</ul>
+									</ul>
+								</>
+							)
+						}
 						<div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 mt-4">
 							{data.project_link && (
 								<Link href={data.project_link}>

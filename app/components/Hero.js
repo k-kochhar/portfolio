@@ -11,16 +11,16 @@ export function Hero() {
 	return (
 		<div className="h-screen flex items-center justify-center bg-black">
 			<div className="flex flex-wrap gap-x-5">
-				<div className="lg:block rounded-lg flex mx-auto my-auto">
+				<div className="lg:block rounded-lg flex mx-auto my-auto justify-center">
 					<Image
 						src="/headshot.jpg"
 						alt="Kshitij Kochhar"
 						width={270}
 						height={270}
-						className="rounded-xl w-[98%] sm:w-[270px]"
+						className="rounded-xl w-[95%] sm:w-[270px]"
 					/>
 				</div>
-				<div className="px-8 flex flex-col text-wrap pt-6 sm:pt-0">
+				<div className="px-10 flex flex-col text-wrap pt-6 sm:pt-0">
 					<h1 className="font-extrabold text-4xl sm:text-6xl mb-2 text-white">
 						Kshitij Kochhar
 					</h1>
@@ -51,7 +51,7 @@ export function Hero() {
 								</Link>
 							</div>
 						</div>
-						<div className="flex gap-x-8 py-auto mt-20 sm:mt-0 w-full sm:w-auto justify-center sm:justify-start">
+						<div className="flex gap-x-8 py-auto mt-10 sm:mt-0 w-full sm:w-auto justify-center sm:justify-start self-end">
 							{icons.map((icon) => (
 								<Link key={icon.name} href={icon.link} passHref>
 									<i
